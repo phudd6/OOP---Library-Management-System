@@ -1,0 +1,8 @@
+library_app
+library_app.exe
+*.o
+*.obj
+*.exe
+*.out
+.vscode/
+.idea/
