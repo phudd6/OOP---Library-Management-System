@@ -6,7 +6,7 @@ loans, returns, account state, fines, receipts, and item waitlists.
 ## Compile
 
 ```bash
-g++ -std=c++17 *.cpp -o library_app
+g++ -std=c++17 src/*.cpp -o library_app
 ```
 
 Run:
@@ -47,6 +47,12 @@ Run:
 - Item status uses an `ItemStatus` enum with `Available`, `CheckedOut`, and `Lost`.
 - Ancient publication years display as BCE instead of negative numbers.
 - Item waitlists use `std::queue<int>` to store patron account IDs in first-come-first-served order.
+
+## Project Folders
+
+- `src/` contains all C++ source and header files.
+- `assets/` is reserved for UML diagrams and other report images.
+- Root-level Markdown files contain project documentation and the final report.
 
 ## Class Structure
 
